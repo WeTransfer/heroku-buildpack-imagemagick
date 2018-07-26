@@ -1,3 +1,11 @@
+This has been (manually) forked from
+[ello/heroku-buildpack-imagemagick](https://github.com/ello/heroku-buildpack-imagemagick).
+
+The main difference is that it actually supports reading environment
+variables to set the version of ImageMagick to compile.
+
+----
+
 heroku-buildpack-imagemagick
 =================================
 
