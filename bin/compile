@@ -76,6 +76,9 @@ cat > $INSTALL_DIR/policy.xml <<EOF
 </policymap>
 EOF
 
+echo "-----> Copying magic.xml file"
+cp "${INSTALL_DIR}/etc/ImageMagick-7/magic.xml" "${INSTALL_DIR}/magic.xml"
+
 # update PATH and LD_LIBRARY_PATH
 echo "-----> Updating environment variables"
 PROFILE_PATH="$BUILD_DIR/.profile.d/imagemagick.sh"
